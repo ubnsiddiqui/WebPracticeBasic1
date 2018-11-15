@@ -1,0 +1,25 @@
+.navbar{
+	background-color:  white;
+}
+ .navbar.navbar-brand {
+ 	color: black;
+ }
+ .link1:link {
+ 	text-decoration: none;
+ 	color: black;
+ }
+ .link1:hover {
+ 	color: red;
+ 	text-decoration: underline;
+ }
+ .photo>img {
+  width: 100%;
+  max-height: 80%;
+}
+ .custom-footer {
+  position: relative;
+  margin-top: 285px; /* negative value of footer height */
+  height: 50px;
+  clear:both;
+  padding-top:20px;
+} 
