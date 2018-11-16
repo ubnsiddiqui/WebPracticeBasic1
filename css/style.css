@@ -13,8 +13,8 @@
  	text-decoration: underline;
  }
  .photo>img {
-  width: 100%;
-  max-height: 80%;
+  width: 104%;
+  height: 500%;
 }
  .custom-footer {
   position: relative;
