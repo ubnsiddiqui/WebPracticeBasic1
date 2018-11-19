@@ -86,6 +86,9 @@
   transition:width 0.25s ease;
   
 }
+.hvr-overline-reveal{
+
+}
 
 .butn3:hover::after {
   width: 100%;
@@ -100,7 +103,10 @@
   color:white;
   font-weight: bold;
   position: relative;
-  transition:color 0.25s ease;
+  -webkit-transition: border-color 1s ease;
+         -moz-transition: border-color 1s ease;
+           -o-transition: border-color 1s ease;
+          -ms-transition: border-color 1s ease;
 }
 
 .butn4:hover {
