@@ -6,7 +6,7 @@
   color:white;
   font-weight: bold;
   position: relative;
-  transition:color 0.25s ease;
+  transition:color 1s ease;
   border-top : 4px solid #FF4E36;
   text-decoration: none;
   color: white;
@@ -37,7 +37,7 @@
   color:white;
   font-weight: bold;
   position: relative;
-  transition:color 0.25s ease;
+  transition:color 1s ease;
 }
 
 .butn2:hover {
@@ -68,7 +68,7 @@
   color:white;
   font-weight: bold;
   position: relative;
-  transition:color 0.25s ease;
+  transition:color 1s ease;
 }
 
 .butn3:hover {
@@ -138,11 +138,12 @@
   color:white;
   font-weight: bold;
   position: relative;
-  transition:color 0.25s ease;
+  transition:color 1s ease;
 }
 
 .butn5:hover {
 	box-shadow:inset 0px 10px 0px 0px #FEABDB;
+	
 text-decoration: none;
   color: white;
 }
