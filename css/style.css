@@ -1,9 +1,174 @@
-.navbar{
-	background-color:  white;
+/* Button1*/
+.butn1 {
+  display:inline-block;
+  text-transform: none;
+  padding: 1em 1.5em;
+  color:white;
+  font-weight: bold;
+  position: relative;
+  transition:color 0.25s ease;
+  border-top : 4px solid #FF4E36;
+  text-decoration: none;
+  color: white;
 }
- .navbar.navbar-brand {
- 	color: black;
- }
+
+.butn1:hover{
+  border-top : 4px solid #FF4E36;
+  text-decoration: none;
+  color: white;
+}
+
+.butn1::after {
+  position: relative;
+  content: '';
+  background-color: white;
+  transform-origin:left;
+  transition:width 0.25s ease;
+}
+.butn1:hover::after {
+  width: 100%;
+}
+/* Button2*/
+.butn2 {
+  display:inline-block;
+  
+  text-transform: none;
+  padding: 1em 1.5em;
+  color:white;
+  font-weight: bold;
+  position: relative;
+  transition:color 0.25s ease;
+}
+
+.butn2:hover {
+  border-top : 4px solid #FF7F0F;
+  text-decoration: none;
+  color: white;
+}
+
+.butn2::after {
+  position: relative;
+  content: '';
+  
+  background-color: white;
+  transform-origin:left;
+  transition:width 0.25s ease;
+  
+}
+
+.butn2:hover::after {
+  width: 100%;
+}
+/* Button3*/
+.butn3 {
+  display:inline-block;
+  
+  text-transform: none;
+  padding: 1em 1.5em;
+  color:white;
+  font-weight: bold;
+  position: relative;
+  transition:color 0.25s ease;
+}
+
+.butn3:hover {
+  border-top : 4px solid #00B2FF;
+  text-decoration: none;
+  color: white;
+}
+
+.butn3::after {
+  position: relative;
+  content: '';
+  
+  background-color: white;
+  transform-origin:left;
+  transition:width 0.25s ease;
+  
+}
+
+.butn3:hover::after {
+  width: 100%;
+}
+
+/* Button4*/
+.butn4 {
+  display:inline-block;
+  
+  text-transform: none;
+  padding: 1em 1.5em;
+  color:white;
+  font-weight: bold;
+  position: relative;
+  transition:color 0.25s ease;
+}
+
+.butn4:hover {
+  border-top : 4px solid #EACCA0;
+text-decoration: none;
+  color: white;
+}
+
+.butn4::after {
+  position: relative;
+  content: '';
+  top:0;
+  left: 0;
+  width: 0;
+  height: 0;
+  background-color: white;
+  transform-origin:left;
+  transition:width 0.25s ease;
+  
+}
+
+.butn4:hover::after {
+  width: 100%;
+}
+
+/* Button5*/
+.butn5 {
+  display:inline-block;
+  
+  text-transform: none;
+  padding: 1em 1.5em;
+  color:white;
+  font-weight: bold;
+  position: relative;
+  transition:color 0.25s ease;
+}
+
+.butn5:hover {
+  border-top : 4px solid #FEABDB;
+text-decoration: none;
+  color: white;
+}
+
+.butn5::after {
+  position: relative;
+  content: '';
+  
+  background-color: white;
+  transform-origin:left;
+  transition:width 0.25s ease;
+  
+}
+
+.butn5:hover::after {
+  width: 100%;
+}
+/*Contribute Button*/
+.butn7{
+	background-color: yellow !important; 
+	color: black  !important; 
+	position: relative;
+	width: 29%; 
+	left: 30px;
+	border-radius: 50px; 
+-moz-border-radius: 50px; 
+-webkit-border-radius: 50px; 
+}
+/* Brexit Deal*/
  .link1:link {
  	text-decoration: none;
  	color: black;
@@ -12,14 +177,37 @@
  	color: red;
  	text-decoration: underline;
  }
+ .link-bar:link{
+ 	text-decoration: none;
+ }
+ .link-bar:hover{
+ 	color: red;
+ }
  .photo>img {
   width: 104%;
   height: 500%;
 }
  .custom-footer {
   position: relative;
-  margin-top: 285px; /* negative value of footer height */
-  height: 50px;
+  height: 140px;
+  max-width: 100%;
   clear:both;
   padding-top:20px;
 } 
+.emailbtn:hover{
+	color: #154889 !important;
+	background-color: yellow;
+}
+
+.w3-dropdown-hover {
+	float: none !important;
+}
+.w3-dropdown-hover:hover {
+background-color: #154889 !important;
+color: #fff !important;
+}
+
+.nav-btn{
+	border: 1px solid gray;
+	margin: 0px -6px -15px 0px;
+}
