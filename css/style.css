@@ -13,7 +13,7 @@
 }
 
 .butn1:hover{
-  border-top : 4px solid #FF4E36;
+	box-shadow:inset 0px 10px 0px 0px #FF4E36;
   text-decoration: none;
   color: white;
 }
@@ -41,8 +41,8 @@
 }
 
 .butn2:hover {
-  border-top : 4px solid #FF7F0F;
-  text-decoration: none;
+	box-shadow:inset 0px 10px 0px 0px #FF7F0F;
+    text-decoration: none;
   color: white;
 }
 
@@ -72,7 +72,7 @@
 }
 
 .butn3:hover {
-  border-top : 4px solid #00B2FF;
+	box-shadow:inset 0px 10px 0px 0px #00B2FF;
   text-decoration: none;
   color: white;
 }
@@ -85,9 +85,6 @@
   transform-origin:left;
   transition:width 0.25s ease;
   
-}
-.hvr-overline-reveal{
-
 }
 
 .butn3:hover::after {
@@ -110,8 +107,8 @@
 }
 
 .butn4:hover {
-  border-top : 4px solid #EACCA0;
-text-decoration: none;
+	box-shadow:inset 0px 10px 0px 0px #EACCA0;
+  text-decoration: none;
   color: white;
 }
 
@@ -145,7 +142,7 @@ text-decoration: none;
 }
 
 .butn5:hover {
-  border-top : 4px solid #FEABDB;
+	box-shadow:inset 0px 10px 0px 0px #FEABDB;
 text-decoration: none;
   color: white;
 }
@@ -169,7 +166,7 @@ text-decoration: none;
 	color: black  !important; 
 	position: relative;
 	width: 29%; 
-	left: 30px;
+	left: 80px;
 	border-radius: 50px; 
 -moz-border-radius: 50px; 
 -webkit-border-radius: 50px; 
